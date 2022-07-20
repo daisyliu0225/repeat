@@ -1,4 +1,4 @@
-for (let index = 0; index < 4; index++) {
+basic.forever(function () {
     basic.showIcon(IconNames.Square)
     basic.pause(500)
     basic.showIcon(IconNames.SmallSquare)
@@ -11,4 +11,8 @@ for (let index = 0; index < 4; index++) {
         . . . . .
         `)
     basic.pause(500)
-}
+    basic.clearScreen()
+    basic.pause(500)
+    basic.showIcon(IconNames.Happy)
+    basic.pause(100)
+})
